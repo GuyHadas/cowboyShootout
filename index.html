@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CowboyFrenzy</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <style>
+      #game-canvas {
+        border: 1px solid black;
+        /*background: linear-gradient(#2c3e50, #27ae60);*/
+        background-image: url("gradient-bg.jpg");
+        background-size: 1000px 600px;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="game.css">
+  </head>
+  <body>
+    <div class="game">
+      <canvas id="game-canvas" width=1000 height=600>
+    </div>
+
+    <div class="instructions-wrapper">
+      <div class="instructions">
+        <span class="instructions-title">Instructions</span>
+        <span class="instructions-desc">Shoot the balls until they no longer exist. Each time you hit a ball with your rope, two more will appear until they are too small. If you get hit with a bubble you lose a life.</span>
+        <span class="keyboard"><img src="keyboard.png"/></span>
+        <span class="instructions-begin">Hit SPACE to play</span>
+      </div>
+    </div>
+
+    <script type='text/javascript' src="bundle.js"></script>
+
+  </body>
+</html>

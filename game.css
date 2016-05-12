@@ -1,0 +1,65 @@
+body {
+  overflow-x: hidden;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#bg-img {
+  width: 1000px;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+}
+
+.instructions-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+}
+
+.instructions {
+  width: 400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(63, 63, 63, 0.8);
+  border: 1px solid black;
+  border-radius: 15px;
+  color: white;
+}
+
+.instructions-title {
+  font-size: 36px;
+  border-bottom: 1px solid white;
+  font-family: "Open Sans"
+}
+
+.instructions-desc {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Open Sans"
+}
+
+.keyboard {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.instructions-begin {
+  font-size: 36px;
+  font-family: 'Open Sans';
+}
