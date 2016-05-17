@@ -19,7 +19,6 @@ function keyDownHandler(e) {
   } else if(e.keyCode === 37) {
     this.game.player.dir = "left";
   } else if (e.keyCode === 32) {
-      console.log("SPACE");
       if (!this.game.initialized) {
         this.game.initialized = true;
         $('.instructions-wrapper').css("display", "none");
