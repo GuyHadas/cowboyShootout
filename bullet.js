@@ -17,12 +17,6 @@ Bullet.prototype.draw = function() {
 
   this.ctx.drawImage(rope, this.startPos[0], this.endPos[1], 5, 600 - this.endPos[1]);
 
-
-  // this.ctx.fillStyle = this.color;
-  // this.ctx.beginPath();
-  // this.ctx.moveTo(this.startPos[0], 600);
-  // this.ctx.lineTo(this.startPos[0], this.endPos[1]);
-  // this.ctx.stroke();
 };
 
 Bullet.prototype.move = function() {

@@ -77,7 +77,6 @@
 	  } else if(e.keyCode === 37) {
 	    this.game.player.dir = "left";
 	  } else if (e.keyCode === 32) {
-	      console.log("SPACE");
 	      if (!this.game.initialized) {
 	        this.game.initialized = true;
 	        $('.instructions-wrapper').css("display", "none");
@@ -450,12 +449,6 @@
 
 	  this.ctx.drawImage(rope, this.startPos[0], this.endPos[1], 5, 600 - this.endPos[1]);
 
-
-	  // this.ctx.fillStyle = this.color;
-	  // this.ctx.beginPath();
-	  // this.ctx.moveTo(this.startPos[0], 600);
-	  // this.ctx.lineTo(this.startPos[0], this.endPos[1]);
-	  // this.ctx.stroke();
 	};
 
 	Bullet.prototype.move = function() {
